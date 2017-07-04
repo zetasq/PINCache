@@ -168,11 +168,11 @@
 			isa = PBXGroup;
 			children = (
 				CC0105801E2711B700890935 /* PINOperation.h */,
-				CC0105811E2711B700890935 /* PINOperationGroup.h */,
 				CC0105831E2711B700890935 /* PINOperationMacros.h */,
-				CC0105841E2711B700890935 /* PINOperationQueue.h */,
 				CC0105861E2711B700890935 /* PINOperationTypes.h */,
+				CC0105811E2711B700890935 /* PINOperationGroup.h */,
 				CC0105821E2711B700890935 /* PINOperationGroup.m */,
+				CC0105841E2711B700890935 /* PINOperationQueue.h */,
 				CC0105851E2711B700890935 /* PINOperationQueue.m */,
 				CC01059C1E27129E00890935 /* Info.plist */,
 			);

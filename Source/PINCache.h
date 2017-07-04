@@ -115,14 +115,4 @@ PIN_SUBCLASSING_RESTRICTED
 
 @end
 
-@interface PINCache (Deprecated)
-- (void)containsObjectForKey:(NSString *)key block:(PINCacheObjectContainmentBlock)block __attribute__((deprecated));
-- (void)objectForKey:(NSString *)key block:(PINCacheObjectBlock)block __attribute__((deprecated));
-- (void)setObject:(id <NSCoding>)object forKey:(NSString *)key block:(nullable PINCacheObjectBlock)block __attribute__((deprecated));
-- (void)setObject:(id <NSCoding>)object forKey:(NSString *)key withCost:(NSUInteger)cost block:(nullable PINCacheObjectBlock)block __attribute__((deprecated));
-- (void)removeObjectForKey:(NSString *)key block:(nullable PINCacheObjectBlock)block __attribute__((deprecated));
-- (void)trimToDate:(NSDate *)date block:(nullable PINCacheBlock)block __attribute__((deprecated));
-- (void)removeAllObjects:(nullable PINCacheBlock)block __attribute__((deprecated));
-@end
-
 NS_ASSUME_NONNULL_END
